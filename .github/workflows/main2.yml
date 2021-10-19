@@ -2,10 +2,9 @@
 name: GitHub Actions Maven Build Example
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch
 jobs:
-
+  
   build-on-ubuntu:
     
     runs-on: ubuntu-latest
