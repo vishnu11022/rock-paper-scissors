@@ -1,12 +1,12 @@
 #buid is going to trigger
 name: GitHub Actions Maven Build Example
 
-on:
-  workflow_dispatch
+on: [ push, workflow_dispatch ]
+  
 jobs:
   
   build-on-ubuntu:
-    
+
     runs-on: ubuntu-latest
     steps:
       - name: Step 1 - Checkout main branch from GitHub 
