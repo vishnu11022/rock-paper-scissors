@@ -7,7 +7,10 @@
 	<packaging>jar</packaging>
 
 	<name>roshambo</name>
-
+         <properties>
+           <sonar.organization>vishnu11022</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+         </properties>
 
 	<dependencies>
 		<dependency>
